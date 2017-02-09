@@ -219,6 +219,19 @@
 		"oAP": "\/_scss\/.sass-cache\/7cf753c48890cd0521c56a06441df6a66849c1dc\/nieder.scssc",
 		"oF": 0
 		},
+	"\/_scss\/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_scss\/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_scss\/_borders.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -329,11 +342,11 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "\/_scss\/sarahsampsel.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/css\/sarahsampsel.css",
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/sarahsampsel.css": {
@@ -359,528 +372,6 @@
 		"oAP": "\/favicon.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/generator_config.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/generator_config.txt",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-demo.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-demo.html",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.eot",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.ttf",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/geomanist-light-italic-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/specimen_files\/easytabs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/specimen_files\/easytabs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/specimen_files\/grid_12-825-55-15.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/specimen_files\/grid_12-825-55-15-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/specimen_files\/specimen_stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/specimen_files\/specimen_stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/03.Geomanist_Light_Italic_webfontkit\/stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/03.Geomanist_Light_Italic_webfontkit\/stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/generator_config.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/generator_config.txt",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-demo.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-demo.html",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.eot",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.ttf",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/geomanist-light-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/specimen_files\/easytabs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/specimen_files\/easytabs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/specimen_files\/grid_12-825-55-15.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/specimen_files\/grid_12-825-55-15-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/specimen_files\/specimen_stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/specimen_files\/specimen_stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/03.Geomanist_Light_webfontkit\/stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/03.Geomanist_Light_webfontkit\/stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/generator_config.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/generator_config.txt",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-demo.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-demo.html",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.eot",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.ttf",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/geomanist-medium-italic-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/specimen_files\/easytabs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/specimen_files\/easytabs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/specimen_files\/grid_12-825-55-15.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/specimen_files\/grid_12-825-55-15-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/specimen_files\/specimen_stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/specimen_files\/specimen_stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/06.Geomanist_Medium_Italic_webfontkit\/stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/generator_config.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/generator_config.txt",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-demo.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-demo.html",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.eot",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.ttf",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/geomanist-medium-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/specimen_files\/easytabs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/specimen_files\/easytabs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/specimen_files\/grid_12-825-55-15.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/specimen_files\/grid_12-825-55-15-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/specimen_files\/specimen_stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/specimen_files\/specimen_stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/06.Geomanist_Medium_webfontkit\/stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/06.Geomanist_Medium_webfontkit\/stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/generator_config.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/generator_config.txt",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-demo.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-demo.html",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.eot",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.ttf",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/geomanist-black-italic-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/specimen_files\/easytabs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/specimen_files\/easytabs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/specimen_files\/grid_12-825-55-15.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/specimen_files\/grid_12-825-55-15-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/specimen_files\/specimen_stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/specimen_files\/specimen_stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/08.Geomanist_Black_Italic_webfontkit\/stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/08.Geomanist_Black_Italic_webfontkit\/stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/generator_config.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/generator_config.txt",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-demo.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-demo.html",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.eot",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.ttf",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/geomanist-black-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/specimen_files\/easytabs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/specimen_files\/easytabs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/specimen_files\/grid_12-825-55-15.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/specimen_files\/grid_12-825-55-15-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/specimen_files\/specimen_stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/specimen_files\/specimen_stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/08.Geomanist_Black_webfontkit\/stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/08.Geomanist_Black_webfontkit\/stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/fonts\/geomanist_webfont_license 2.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/geomanist_webfont_license 2.pdf",
-		"oF": 0
-		},
-	"\/fonts\/geomanist_webfont_license.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/geomanist_webfont_license.pdf",
-		"oF": 0
 		},
 	"\/images\/favicon.png": {
 		"ft": 32768,
@@ -937,7 +428,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "\/README_BACKUP_4428.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -945,6 +436,18 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/README_BACKUP_4428.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README_BACKUP_4428.html",
+		"oF": 0
+		},
+	"\/README_BASE_4428.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README_BASE_4428.html",
+		"oF": 0
 		},
 	"\/video\/bf-socialmc-poster.png": {
 		"ft": 32768,

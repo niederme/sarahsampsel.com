@@ -25,6 +25,7 @@ body {
 // -------------------------
 
 h1 {
+  margin: 0;
   font-family: $serif-display;
   font-weight: $book;
   font-size:   $h1;
@@ -36,14 +37,19 @@ h1 {
   .bold {
     font-weight: $bold;
   }
+
+  a {
+    background-position: 0 1.05em;
+    font-style: italic;
+  }
 }
 
 h2 {
+  margin: 0;
   font-family: $serif-display;
   font-weight: $book;
   font-size:   $h2;
   line-height: $line-height-hed;
-  font-style: italic;
 
   strong,
   b,
@@ -51,9 +57,15 @@ h2 {
   .bold {
     font-weight: $bold;
   }
+
+  a {
+    background-position: 0 1.05em;
+    font-style: italic;
+  }
 }
 
 h3 {
+  margin: 0;
   font-family: $serif-display;
   font-weight: $book;
   font-size:   $h3;
@@ -70,11 +82,17 @@ h3 {
 h4,
 h5,
 h6 {
+  margin: 0;
   font-size:   $h4;
   line-height: $line-height-hed;
 }
 
+p {
+  margin: 0;
+}
+
 a {
+  color: $base;
   text-decoration: none;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, .6) 50%, rgba(0, 0, 0, 0) 50%);
   background-repeat: repeat-x;
@@ -91,12 +109,17 @@ b {
   font-weight: $bold;
 }
 
+.italic,
 em,
 i {
   font-style: italic;
 }
 
-.caps{
+.text-indent {
+  text-indent: 5%;
+}
+
+.caps {
   text-transform: uppercase !important;
 }
 
