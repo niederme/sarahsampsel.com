@@ -7,8 +7,8 @@
 // -------------------------
 
 :root {
-  --gutter-width: 2rem;
-  --outer-margin: 4rem;
+  --gutter-width: 2.2222222222rem;
+  --outer-margin: 4.4444444444rem;
   --gutter-compensation: calc((var(--gutter-width) * 0.5) * -1);
   --half-gutter-width: calc((var(--gutter-width) * 0.5));
 }
@@ -19,8 +19,8 @@
 }
 
 .container-fluid {
-  padding-right: var(--outer-margin, 2rem);
-  padding-left: var(--outer-margin, 2rem);
+  padding-right: var(--outer-margin, 2.2222222222rem);
+  padding-left: var(--outer-margin, 2.2222222222rem);
 }
 
 
@@ -29,21 +29,21 @@
 
 @media (min-width: 64rem) { // 1024px
   .container {
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 2.2222222222rem;
+    margin-left: 2.2222222222rem;
   }
 }
 
 @media (min-width: 87.5rem) { // 1400px
   .container {
-    margin-right: 4rem;
-    margin-left: 4rem;
+    margin-right: 4.4444444444rem;
+    margin-left: 4.4444444444rem;
   }
 }
 
 @media (min-width: 100rem) { // 1600px
   .container {
-    max-width: 92.5rem; // 1480px
+    max-width: 75.5555555556rem; // 1480px
     margin-right: auto;
     margin-left: auto;
   }
