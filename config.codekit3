@@ -448,34 +448,6 @@
 		"oA": 2,
 		"oAP": "\/README_BASE_4428.html",
 		"oF": 0
-		},
-	"\/video\/bf-socialmc-poster.png": {
-		"ft": 32768,
-		"iS": 699841,
-		"oA": 0,
-		"oAP": "\/video\/bf-socialmc-poster.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/video\/bf-socialmc-promo.png": {
-		"ft": 32768,
-		"iS": 929153,
-		"oA": 0,
-		"oAP": "\/video\/bf-socialmc-promo.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/video\/bf-socialmc.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/video\/bf-socialmc.html",
-		"oF": 0
-		},
-	"\/video\/bf-socialmc.m4v": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/video\/bf-socialmc.m4v",
-		"oF": 0
 		}
 	},
 "hooks": [
