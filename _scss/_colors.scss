@@ -1,0 +1,21 @@
+//
+// Color Utility Classes
+// --------------------------------------------------
+
+// Color Fills
+// -------------------------
+
+@include generate-breakpoint-prefixes {
+
+  &fill-brand1 {  background-color: $brand1     !important; }
+  &fill-bg1 {     background-color: $bg1        !important; }
+  &fill-none {    background-color: transparent !important; }
+
+
+  // Text Colors
+  // -------------------------
+
+  &text-base {    color: $base   !important; }
+  &text-brand1 {  color: $brand1 !important; }
+
+}

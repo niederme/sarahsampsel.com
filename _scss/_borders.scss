@@ -1,0 +1,26 @@
+//
+// Border Utility Classes
+// --------------------------------------------------
+// These classes make extensive use of the
+// generate-breakpoint-prefixes mixin, which
+// adds prefixes such as `xs-` to the class.
+// see more in `/_mixins.scss`
+
+// Borders
+// -------------------------
+
+@include generate-breakpoint-prefixes {
+
+  &border        { border: $border        !important; }
+  &border-top    { border-top: $border    !important; }
+  &border-right  { border-right: $border  !important; }
+  &border-bottom { border-bottom: $border !important; }
+  &border-left   { border-left: $border   !important; }
+
+  &border-none        { border: none        !important; }
+  &border-top-none    { border-top: none    !important; }
+  &border-right-none  { border-right: none  !important; }
+  &border-bottom-none { border-bottom: none !important; }
+  &border-left-none   { border-left: none   !important; }
+
+}

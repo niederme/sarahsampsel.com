@@ -1,0 +1,181 @@
+//
+// Typography
+// --------------------------------------------------
+
+
+// Base Type Styles
+
+html {
+  font-size: $base-font-size;
+  font-family: $serif;
+  font-weight: $book;
+  line-height: $line-height-body;
+  color: $base;
+  -webkit-font-feature-settings: "liga", "kern" !important;
+  font-feature-settings:         "liga", "kern" !important;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+}
+
+
+// Base Text Size
+// -------------------------
+
+h1 {
+  font-family: $serif-display;
+  font-weight: $book;
+  font-size:   $h1;
+  line-height: $line-height-hed;
+
+  strong,
+  b,
+  &.bold,
+  .bold {
+    font-weight: $bold;
+  }
+}
+
+h2 {
+  font-family: $serif-display;
+  font-weight: $book;
+  font-size:   $h2;
+  line-height: $line-height-hed;
+  font-style: italic;
+
+  strong,
+  b,
+  &.bold,
+  .bold {
+    font-weight: $bold;
+  }
+}
+
+h3 {
+  font-family: $serif-display;
+  font-weight: $book;
+  font-size:   $h3;
+  line-height: $line-height-hed;
+
+  strong,
+  b,
+  &.bold,
+  .bold {
+    font-weight: $bold;
+  }
+}
+
+h4,
+h5,
+h6 {
+  font-size:   $h4;
+  line-height: $line-height-hed;
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .6) 50%, rgba(0, 0, 0, 0) 50%);
+  background-repeat: repeat-x;
+  background-size: 2px 1px;
+  background-position: 0 1.03em;
+}
+
+
+// Typography Emphasis and Styling
+
+.bold,
+strong,
+b {
+  font-weight: $bold;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+.caps{
+  text-transform: uppercase !important;
+}
+
+// Text Alignment
+
+@include generate-breakpoint-prefixes {
+  &text-left    { text-align: left    !important; }
+  &text-center  { text-align: center  !important; }
+  &text-right   { text-align: right   !important; }
+  &text-justify { text-align: justify !important; }
+}
+
+
+// List styles
+// -------------------------
+
+// Ordered and unordered list,
+// list items are block level
+ol,
+ul {
+  padding-left: $space-4;
+}
+
+
+// Responsive Text Size
+// -------------------------
+
+// 38px
+.xs-h1 { font-size: 2.1111111111rem !important; }
+
+// 24px
+.xs-h2 { font-size: 1.3333333333rem !important; }
+
+// 20px
+.xs-h3 { font-size: 1.1111111111rem !important; }
+
+// 16px
+.xs-h4 { font-size: 0.8888888889rem !important; }
+
+// 80px
+.xl-h1 { font-size: 4.4444444444rem !important; }
+
+// 60px
+.xl-h2 { font-size: 3.3333333333rem !important; }
+
+// 24px
+.xl-h3 { font-size: 1.3333333333rem !important; }
+
+// 18px
+.xl-h4 { font-size: 1rem !important; }
+
+
+@include generate-breakpoint-prefixes {
+
+  &line-height-hed {
+    line-height: $line-height-hed  !important;
+  }
+
+  &line-height-body {
+    line-height: $line-height-body !important;
+  }
+}
+
+
+// Ordered and unordered list,
+// list items are block level
+// -------------------------
+ol,
+ul {
+  padding-left: $space-4;
+}
+
+
+// Unstyled keeps list items block level,
+// just removes default browser padding and list-style
+// -------------------------
+
+.list-unstyled {
+  margin-left:  0    !important;
+  padding-left: 0    !important;
+  list-style:   none !important;
+}

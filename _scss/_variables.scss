@@ -1,0 +1,75 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Config
+// -------------------------
+
+// set to false to make responsive
+// mixin give only xs- versions of
+// responsive classes
+$generate-responsive-classes: true !default;
+
+
+// Fonts
+// -------------------------
+
+$serif: "freight-text-pro", didot, georgia, serif;
+$serif-display: "freight-big-pro", didot, georgia, serif;;
+
+
+// Spacing
+// -------------------------
+
+$space-05: .25rem; //  4px
+$space-1: .5rem;   //  8px
+$space-2:   1rem;  // 16px
+$space-3: 1.5rem;  // 24px
+$space-4:   2rem;  // 32px
+$space-5:   3rem;  // 48px
+$space-6: 4.5rem;  // 72px
+$space-7: 5.5rem;  // 88px
+
+
+// Z-index
+// -------------------------
+$z1: 100;
+$z2: 200;
+$z3: 300;
+$z4: 400;
+
+
+// Colors
+// -------------------------
+
+$base:   #2a2a2a;
+$brand1: #d26161;
+$bg1:    #fff5f5;
+
+
+// Typography Sizes and Weights
+// -------------------------
+
+$base-font-size: 18px;
+
+$h1: 4.4444444444rem;
+$h2: 3.3333333333rem;
+$h3: 1.3333333333rem;
+$h4: 1rem;
+
+$book: 400;
+$bold: 700;
+$black: 900;
+
+
+// Line height
+// -------------------------
+
+$line-height-hed: 1.1;
+$line-height-body: 1.39;
+
+
+// Borders
+// -------------------------
+
+$border: 1px solid #2a2a2a;
