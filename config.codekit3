@@ -346,7 +346,7 @@
 		"oA": 0,
 		"oAP": "\/css\/sarahsampsel.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/css\/sarahsampsel.css": {
@@ -410,6 +410,14 @@
 		"iS": 2946,
 		"oA": 0,
 		"oAP": "\/images\/favicon72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/social-promo.png": {
+		"ft": 32768,
+		"iS": 1541092,
+		"oA": 0,
+		"oAP": "\/images\/social-promo.png",
 		"oF": 0,
 		"opt": 0
 		},

@@ -14,21 +14,27 @@ $generate-responsive-classes: true !default;
 // Fonts
 // -------------------------
 
-$serif: "freight-text-pro", didot, georgia, serif;
-$serif-display: "freight-big-pro", didot, georgia, serif;;
+$serif:         "freight-text-pro", didot, georgia, serif;
+$serif-display: "freight-big-pro", didot, georgia, serif;
+$sans: 	        "freight-sans-pro", "helvetica neue", helvetica, arial, sans-serif;
 
+
+$base-font-size: 19;
 
 // Spacing
 // -------------------------
 
-$space-05: .25rem; //  4px
-$space-1: .5rem;   //  8px
-$space-2:   1rem;  // 16px
-$space-3: 1.5rem;  // 24px
-$space-4:   2rem;  // 32px
-$space-5:   3rem;  // 48px
-$space-6: 4.5rem;  // 72px
-$space-7: 5.5rem;  // 88px
+$space-05:   2/$base-font-size + rem;
+$space-1:    8/$base-font-size + rem;
+$space-2:   16/$base-font-size + rem;
+$space-3:   20/$base-font-size + rem;
+$space-4:   24/$base-font-size + rem;
+$space-5:   32/$base-font-size + rem;
+$space-6:   56/$base-font-size + rem;
+$space-7:   72/$base-font-size + rem;
+$space-8:   96/$base-font-size + rem;
+$space-9:  120/$base-font-size + rem;
+$space-10: 150/$base-font-size + rem;
 
 
 // Z-index
@@ -43,21 +49,62 @@ $z4: 400;
 // -------------------------
 
 $base:   #2a2a2a;
-$brand1: #d26161;
-$bg1:    #fff5f5;
+$white:  #fff;
+$brand: #FF0000;
+$bg:    #000;
 
 
 // Typography Sizes and Weights
 // -------------------------
 
-$base-font-size: 18px;
+// xs breakpoint
+$xs-p:  17/$base-font-size + rem;
+$xs-h1: 32/$base-font-size + rem;
+$xs-h2: 32/$base-font-size + rem;
+$xs-h3: 26/$base-font-size + rem;
+$xs-h4: 24/$base-font-size + rem;
+$xs-h5: 20/$base-font-size + rem;
+$xs-h6: 16/$base-font-size + rem;
 
-$h1: 4.4444444444rem;
-$h2: 3.3333333333rem;
-$h3: 1.3333333333rem;
-$h4: 1rem;
+// sm breakpoint
+$sm-p:  18/$base-font-size + rem;
+$sm-h1: 44/$base-font-size + rem;
+$sm-h2: 36/$base-font-size + rem;
+$sm-h3: 30/$base-font-size + rem;
+$sm-h4: 20/$base-font-size + rem;
+$sm-h5: 16/$base-font-size + rem;
+$sm-h6: 14/$base-font-size + rem;
 
+// md breakpoint
+$md-p:  16/$base-font-size + rem;
+$md-h1: 56/$base-font-size + rem;
+$md-h2: 52/$base-font-size + rem;
+$md-h3: 40/$base-font-size + rem;
+$md-h4: 32/$base-font-size + rem;
+$md-h5: 18/$base-font-size + rem;
+$md-h6: 14/$base-font-size + rem;
+
+// lg breakpoint
+$lg-p:  19/$base-font-size + rem;
+$lg-h1: 60/$base-font-size + rem;
+$lg-h2: 56/$base-font-size + rem;
+$lg-h3: 44/$base-font-size + rem;
+$lg-h4: 32/$base-font-size + rem;
+$lg-h5: 18/$base-font-size + rem;
+$lg-h6: 16/$base-font-size + rem;
+
+// xl breakpoint
+$p:  19/$base-font-size + rem;
+$h1: 84/$base-font-size + rem;
+$h2: 80/$base-font-size + rem;
+$h3: 60/$base-font-size + rem;
+$h4: 50/$base-font-size + rem;
+$h5: 19/$base-font-size + rem;
+$h6: 16/$base-font-size + rem;
+
+// weights
 $book: 400;
+$medium: 500;
 $bold: 700;
 $black: 900;
 
@@ -65,11 +112,12 @@ $black: 900;
 // Line height
 // -------------------------
 
-$line-height-hed: 1.1;
+$line-height-hed: 1.07;
 $line-height-body: 1.39;
 
 
 // Borders
 // -------------------------
 
-$border: 1px solid #2a2a2a;
+$border: 1px solid $brand;
+$border-thick: 6px solid $bg;

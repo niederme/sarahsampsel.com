@@ -109,16 +109,48 @@
   &mx7 { margin-left:   $space-7 !important; margin-right: $space-7  !important;}
   &my7 { margin-top:    $space-7 !important; margin-bottom: $space-7 !important;}
 
+  &m8  { margin:        $space-8 !important; }
+  &mt8 { margin-top:    $space-8 !important; }
+  &mr8 { margin-right:  $space-8 !important; }
+  &mb8 { margin-bottom: $space-8 !important; }
+  &ml8 { margin-left:   $space-8 !important; }
+  &mx8 { margin-left:   $space-8 !important; margin-right: $space-8  !important;}
+  &my8 { margin-top:    $space-8 !important; margin-bottom: $space-8 !important;}
+
+  &m9  { margin:        $space-9 !important; }
+  &mt9 { margin-top:    $space-9 !important; }
+  &mr9 { margin-right:  $space-9 !important; }
+  &mb9 { margin-bottom: $space-9 !important; }
+  &ml9 { margin-left:   $space-9 !important; }
+  &mx9 { margin-left:   $space-9 !important; margin-right: $space-9  !important;}
+  &my9 { margin-top:    $space-9 !important; margin-bottom: $space-9 !important;}
+
+  &m10  { margin:        $space-10 !important; }
+  &mt10 { margin-top:    $space-10 !important; }
+  &mr10 { margin-right:  $space-10 !important; }
+  &mb10 { margin-bottom: $space-10 !important; }
+  &ml10 { margin-left:   $space-10 !important; }
+  &mx10 { margin-left:   $space-10 !important; margin-right: $space-10  !important;}
+  &my10 { margin-top:    $space-10 !important; margin-bottom: $space-10 !important;}
+
   &mx-auto { margin-left: auto !important; margin-right: auto !important; }
 
-  // Negative margin-top!
-  &neg-mt1 { margin-top:  (-$space-1) !important; }
-  &neg-mt2 { margin-top:  (-$space-2) !important; }
-  &neg-mt3 { margin-top:  (-$space-3) !important; }
-  &neg-mt4 { margin-top:  (-$space-4) !important; }
-  &neg-mt5 { margin-top:  (-$space-5) !important; }
-  &neg-mt6 { margin-top:  (-$space-6) !important; }
-  &neg-mt7 { margin-top:  (-$space-7) !important; }
+  // Some Negative margin
+  &neg-m05  { margin:        -$space-05 !important; }
+  &neg-mt05 { margin-top:    -$space-05 !important; }
+  &neg-mr05 { margin-right:  -$space-05 !important; }
+  &neg-mb05 { margin-bottom: -$space-05 !important; }
+  &neg-ml05 { margin-left:   -$space-05 !important; }
+  &neg-mx05 { margin-left:   -$space-05 !important; margin-right: -$space-05  !important;}
+  &neg-my05 { margin-top:    -$space-05 !important; margin-bottom: -$space-05 !important;}
+
+  &neg-m1  { margin:        -$space-1 !important; }
+  &neg-mt1 { margin-top:    -$space-1 !important; }
+  &neg-mr1 { margin-right:  -$space-1 !important; }
+  &neg-mb1 { margin-bottom: -$space-1 !important; }
+  &neg-ml1 { margin-left:   -$space-1 !important; }
+  &neg-mx1 { margin-left:   -$space-1 !important; margin-right: -$space-1  !important;}
+  &neg-my1 { margin-top:    -$space-1 !important; margin-bottom: -$space-1 !important;}
 
 }
 
@@ -140,8 +172,8 @@
   &pr05 { padding-right:  $space-05 !important; }
   &pb05 { padding-bottom: $space-05 !important; }
   &pl05 { padding-left:   $space-05 !important; }
-  &px05 { padding-left:   $space-05 !important; padding-right: $space-05  !important; }
-  &py05 { padding-top:    $space-05 !important; padding-bottom: $space-05 !important; }
+  &px05 { padding-left:   $space-05 !important; padding-right: $space-05  !important;}
+  &py05 { padding-top:    $space-05 !important; padding-bottom: $space-05 !important;}
 
   &p1  { padding:        $space-1 !important; }
   &pt1 { padding-top:    $space-1 !important; }
@@ -198,6 +230,30 @@
   &pl7 { padding-left:   $space-7 !important; }
   &px7 { padding-left:   $space-7 !important; padding-right: $space-7  !important;}
   &py7 { padding-top:    $space-7 !important; padding-bottom: $space-7 !important;}
+
+  &p8  { padding:        $space-8 !important; }
+  &pt8 { padding-top:    $space-8 !important; }
+  &pr8 { padding-right:  $space-8 !important; }
+  &pb8 { padding-bottom: $space-8 !important; }
+  &pl8 { padding-left:   $space-8 !important; }
+  &px8 { padding-left:   $space-8 !important; padding-right: $space-8  !important;}
+  &py8 { padding-top:    $space-8 !important; padding-bottom: $space-8 !important;}
+
+  &p9  { padding:        $space-9 !important; }
+  &pt9 { padding-top:    $space-9 !important; }
+  &pr9 { padding-right:  $space-9 !important; }
+  &pb9 { padding-bottom: $space-9 !important; }
+  &pl9 { padding-left:   $space-9 !important; }
+  &px9 { padding-left:   $space-9 !important; padding-right: $space-9  !important;}
+  &py9 { padding-top:    $space-9 !important; padding-bottom: $space-9 !important;}
+
+  &p10  { padding:        $space-10 !important; }
+  &pt10 { padding-top:    $space-10 !important; }
+  &pr10 { padding-right:  $space-10 !important; }
+  &pb10 { padding-bottom: $space-10 !important; }
+  &pl10 { padding-left:   $space-10 !important; }
+  &px10 { padding-left:   $space-10 !important; padding-right: $space-10  !important;}
+  &py10 { padding-top:    $space-10 !important; padding-bottom: $space-10 !important;}
 }
 
 
@@ -259,6 +315,21 @@
   &r7 { right:  $space-7 !important; }
   &b7 { bottom: $space-7 !important; }
   &l7 { left:   $space-7 !important; }
+
+  &t8 { top:    $space-8 !important; }
+  &r8 { right:  $space-8 !important; }
+  &b8 { bottom: $space-8 !important; }
+  &l8 { left:   $space-8 !important; }
+
+  &t9 { top:    $space-9 !important; }
+  &r9 { right:  $space-9 !important; }
+  &b9 { bottom: $space-9 !important; }
+  &l9 { left:   $space-9 !important; }
+
+  &t10 { top:    $space-10 !important; }
+  &r10 { right:  $space-10 !important; }
+  &b10 { bottom: $space-10 !important; }
+  &l10 { left:   $space-10 !important; }
 }
 
 // Vertical Align

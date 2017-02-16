@@ -12,10 +12,10 @@
 // we may use this a lot, keep them somwhere safe
 $breakpoints: (
   xs: null,
-  sm: 35.5555555556rem, // 640px
-  md: 42.6666666667rem, // 768px
-  lg: 56.8888888889rem, // 1024px
-  xl: 77.7777777778rem, // 1400px
+  sm: 375px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1400px,
 );
 
 // returns the apropriate media query

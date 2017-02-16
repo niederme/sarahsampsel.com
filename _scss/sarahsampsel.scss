@@ -4,8 +4,8 @@
 // Imports
 // --------------------------------------------------
 
-@import "mixins";
 @import "variables";
+@import "mixins";
 @import "normalize";
 @import "base";
 @import "typography";
@@ -13,8 +13,3 @@
 @import "layout";
 @import "borders";
 @import "flexgrid";
-
-footer {
-  // 32px
-  .xl-h3 { font-size: 1.7777777778rem !important; }
-}

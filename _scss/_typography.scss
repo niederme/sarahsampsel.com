@@ -6,7 +6,7 @@
 // Base Type Styles
 
 html {
-  font-size: $base-font-size;
+  font-size: $base-font-size + px;
   font-family: $serif;
   font-weight: $book;
   line-height: $line-height-body;
@@ -20,22 +20,25 @@ html {
 body {
 }
 
+.serif         { font-family: "freight-text-pro", didot, georgia, serif; }
+.serif-display { font-family: "freight-big-pro", didot, georgia, serif; }
+.sans 	       { font-family: "freight-sans-pro", "helvetica neue", helvetica, arial, sans-serif; }
 
-// Base Text Size
+
+// Base Text
 // -------------------------
 
 h1 {
   margin: 0;
   font-family: $serif-display;
   font-weight: $book;
-  font-size:   $h1;
   line-height: $line-height-hed;
 
   strong,
   b,
   &.bold,
   .bold {
-    font-weight: $bold;
+    font-weight: $black;
   }
 
   a {
@@ -47,14 +50,13 @@ h2 {
   margin: 0;
   font-family: $serif-display;
   font-weight: $book;
-  font-size:   $h2;
   line-height: $line-height-hed;
 
   strong,
   b,
   &.bold,
   .bold {
-    font-weight: $bold;
+    font-weight: $black;
   }
 
   a {
@@ -66,14 +68,12 @@ h3 {
   margin: 0;
   font-family: $serif-display;
   font-weight: $book;
-  font-size:   $h3;
-  line-height: $line-height-hed;
 
   strong,
   b,
   &.bold,
   .bold {
-    font-weight: $bold;
+    font-weight: $black;
   }
 }
 
@@ -81,8 +81,6 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-size:   $h4;
-  line-height: $line-height-hed;
 }
 
 p {
@@ -96,7 +94,13 @@ a {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, .6) 50%, rgba(0, 0, 0, 0) 50%);
   background-repeat: repeat-x;
   background-size: 2px 1px;
-  background-position: 0 1.1em;
+  background-position: 0 1.05em;
+
+  &.link-white {
+    color: $white;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 1) 100%, rgba(255, 0, 0, 0) 100%);
+    background-repeat: repeat-x;
+  }
 }
 
 
@@ -143,33 +147,101 @@ ul {
 }
 
 
-// Responsive Text Size
+// Base & Responsive Text Sizes
 // -------------------------
 
-// 38px
-.xs-h1 { font-size: 2.1111111111rem !important; }
+// xs breakpoint
+p  { font-size: $xs-p; }
+h1 { font-size: $xs-h1; }
+h2 { font-size: $xs-h2; }
+h3 { font-size: $xs-h3; }
+h4 { font-size: $xs-h4; }
+h5 { font-size: $xs-h5; }
+h6 { font-size: $xs-h6; }
+.p  { font-size: $xs-p  !important; }
+.h1 { font-size: $xs-h1 !important; }
+.h2 { font-size: $xs-h2 !important; }
+.h3 { font-size: $xs-h3 !important; }
+.h4 { font-size: $xs-h4 !important; }
+.h5 { font-size: $xs-h5 !important; }
+.h6 { font-size: $xs-h6 !important; }
 
-// 24px
-.xs-h2 { font-size: 1.3333333333rem !important; }
+// sm breakpoint
+@media (min-width: 375px) {
+  p  { font-size: $sm-p; }
+  h1 { font-size: $sm-h1; }
+  h2 { font-size: $sm-h2; }
+  h3 { font-size: $sm-h3; }
+  h4 { font-size: $sm-h4; }
+  h5 { font-size: $sm-h5; }
+  h6 { font-size: $sm-h6; }
+  .p  { font-size: $sm-p !important; }
+  .h1 { font-size: $sm-h1 !important; }
+  .h2 { font-size: $sm-h2 !important; }
+  .h3 { font-size: $sm-h3 !important; }
+  .h4 { font-size: $sm-h4 !important; }
+  .h5 { font-size: $sm-h5 !important; }
+  .h6 { font-size: $sm-h6 !important; }
 
-// 20px
-.xs-h3 { font-size: 1.1111111111rem !important; }
+}
 
-// 16px
-.xs-h4 { font-size: 0.8888888889rem !important; }
+// md breakpoint
+@media (min-width: 768px) {
+  p  { font-size: $md-p; }
+  h1 { font-size: $md-h1; }
+  h2 { font-size: $md-h2; }
+  h3 { font-size: $md-h3; }
+  h4 { font-size: $md-h4; }
+  h5 { font-size: $md-h5; }
+  h6 { font-size: $md-h6; }
+  .p  { font-size: $md-p !important; }
+  .h1 { font-size: $md-h1 !important; }
+  .h2 { font-size: $md-h2 !important; }
+  .h3 { font-size: $md-h3 !important; }
+  .h4 { font-size: $md-h4 !important; }
+  .h5 { font-size: $md-h5 !important; }
+  .h6 { font-size: $md-h6 !important; }
+}
 
-// 80px
-.xl-h1 { font-size: 4.4444444444rem !important; }
+// lg breakpoint
+@media (min-width: 1024px) {
+  p  { font-size: $lg-p; }
+  h1 { font-size: $lg-h1; }
+  h2 { font-size: $lg-h2; }
+  h3 { font-size: $lg-h3; }
+  h4 { font-size: $lg-h4; }
+  h5 { font-size: $lg-h5; }
+  h6 { font-size: $lg-h6; }
+  .p  { font-size: $lg-p !important; }
+  .h1 { font-size: $lg-h1 !important; }
+  .h2 { font-size: $lg-h2 !important; }
+  .h3 { font-size: $lg-h3 !important; }
+  .h4 { font-size: $lg-h4 !important; }
+  .h5 { font-size: $lg-h5 !important; }
+  .h6 { font-size: $lg-h6 !important; }
+}
 
-// 60px
-.xl-h2 { font-size: 3.3333333333rem !important; }
+// xl breakpoint
+@media (min-width: 1400px) {
+  p  { font-size: $p; }
+  h1 { font-size: $h1; }
+  h2 { font-size: $h2; }
+  h3 { font-size: $h3; }
+  h4 { font-size: $h4; }
+  h5 { font-size: $h5; }
+  h6 { font-size: $h6; }
+  .p  { font-size: $p !important; }
+  .h1 { font-size: $h1 !important; }
+  .h2 { font-size: $h2 !important; }
+  .h3 { font-size: $h3 !important; }
+  .h4 { font-size: $h4 !important; }
+  .h5 { font-size: $h5 !important; }
+  .h6 { font-size: $h6 !important; }
+}
 
-// 24px
-.xl-h3 { font-size: 1.3333333333rem !important; }
 
-// 18px
-.xl-h4 { font-size: 1rem !important; }
-
+// Line Heights
+// -------------------------
 
 @include generate-breakpoint-prefixes {
 

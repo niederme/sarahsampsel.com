@@ -7,15 +7,16 @@
 
 @include generate-breakpoint-prefixes {
 
-  &fill-brand1 {  background-color: $brand1     !important; }
-  &fill-bg1 {     background-color: $bg1        !important; }
-  &fill-none {    background-color: transparent !important; }
+  &fill-brand {  background-color: $brand       !important; }
+  &fill-bg {     background-color: $bg          !important; }
+  &fill-none {   background-color: transparent  !important; }
 
 
-  // Text Colors
+  // Type Colors
   // -------------------------
 
-  &text-base {    color: $base   !important; }
-  &text-brand1 {  color: $brand1 !important; }
+  &type-base {    color: $base  !important; }
+  &type-brand {  color: $brand  !important; }
+  &type-white {  color: $white  !important; }
 
 }
