@@ -27,6 +27,14 @@
 // Container hacks ¯\_(ツ)_/¯
 // -------------------------
 
+
+@media (min-width: 768px) {
+  .container {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .container {
     margin-right: 2rem;

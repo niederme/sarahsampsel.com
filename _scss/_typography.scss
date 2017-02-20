@@ -20,9 +20,9 @@ html {
 body {
 }
 
-.serif         { font-family: "freight-text-pro", didot, georgia, serif; }
-.serif-display { font-family: "freight-big-pro", didot, georgia, serif; }
-.sans 	       { font-family: "freight-sans-pro", "helvetica neue", helvetica, arial, sans-serif; }
+.serif         { font-family: $serif; }
+.serif-display { font-family: $serif-display; }
+.sans 	       { font-family: $sans; }
 
 
 // Base Text
@@ -91,10 +91,10 @@ a {
   color: $base;
   font-style: italic;
   text-decoration: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .6) 50%, rgba(0, 0, 0, 0) 50%);
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, .6) 100%, rgba(255, 0, 0, 0) 100%);
   background-repeat: repeat-x;
   background-size: 2px 1px;
-  background-position: 0 1.05em;
+  background-position: 0 1.1em;
 
   &.link-white {
     color: $white;
@@ -110,6 +110,14 @@ a {
 strong,
 b {
   font-weight: $bold;
+}
+
+.book {
+  font-weight: $book;
+}
+
+.medium {
+  font-weight: $medium;
 }
 
 .italic,
