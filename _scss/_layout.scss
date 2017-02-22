@@ -266,6 +266,8 @@
   &fixed    { position: fixed    !important; }
   &static   { position: static   !important; }
 
+  &z-neg1 { z-index: $z-neg1 !important; }
+  &z0 { z-index: $z0 !important; }
   &z1 { z-index: $z1 !important; }
   &z2 { z-index: $z2 !important; }
   &z3 { z-index: $z3 !important; }

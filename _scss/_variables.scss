@@ -30,7 +30,7 @@ $space-2:   16/$base-font-size + rem;
 $space-3:   20/$base-font-size + rem;
 $space-4:   24/$base-font-size + rem;
 $space-5:   32/$base-font-size + rem;
-$space-6:   56/$base-font-size + rem;
+$space-6:   48/$base-font-size + rem;
 $space-7:   72/$base-font-size + rem;
 $space-8:   96/$base-font-size + rem;
 $space-9:  120/$base-font-size + rem;
@@ -39,6 +39,8 @@ $space-10: 150/$base-font-size + rem;
 
 // Z-index
 // -------------------------
+$z-neg1: -1;
+$z0: 0;
 $z1: 100;
 $z2: 200;
 $z3: 300;
@@ -48,10 +50,10 @@ $z4: 400;
 // Colors
 // -------------------------
 
-$base:   #2a2a2a;
+$base:   #333;
 $white:  #fff;
-$brand: #FF0000;
-$bg:    #000;
+$brand: #E07B7B;
+$bg:    #FFF5F5;
 
 
 // Typography Sizes and Weights
@@ -61,8 +63,8 @@ $bg:    #000;
 $xs-p:  17/$base-font-size + rem;
 $xs-h1: 32/$base-font-size + rem;
 $xs-h2: 32/$base-font-size + rem;
-$xs-h3: 26/$base-font-size + rem;
-$xs-h4: 24/$base-font-size + rem;
+$xs-h3: 24/$base-font-size + rem;
+$xs-h4: 26/$base-font-size + rem;
 $xs-h5: 20/$base-font-size + rem;
 $xs-h6: 16/$base-font-size + rem;
 
@@ -70,8 +72,8 @@ $xs-h6: 16/$base-font-size + rem;
 $sm-p:  18/$base-font-size + rem;
 $sm-h1: 44/$base-font-size + rem;
 $sm-h2: 36/$base-font-size + rem;
-$sm-h3: 30/$base-font-size + rem;
-$sm-h4: 20/$base-font-size + rem;
+$sm-h3: 28/$base-font-size + rem;
+$sm-h4: 30/$base-font-size + rem;
 $sm-h5: 16/$base-font-size + rem;
 $sm-h6: 14/$base-font-size + rem;
 
@@ -119,5 +121,5 @@ $line-height-body: 1.39;
 // Borders
 // -------------------------
 
-$border: 1px solid $brand;
+$border: 3px solid $base;
 $border-thick: 6px solid $bg;

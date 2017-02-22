@@ -7,7 +7,7 @@
 // -------------------------
 
 :root {
-  --gutter-width: 2rem;
+  --gutter-width: 3rem;
   --outer-margin: 4rem;
   --gutter-compensation: calc((var(--gutter-width) * 0.5) * -1);
   --half-gutter-width: calc((var(--gutter-width) * 0.5));
