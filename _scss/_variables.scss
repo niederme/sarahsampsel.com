@@ -96,26 +96,26 @@ $md-other: 56/$base-font-size + rem;
 
 // lg breakpoint
 $lg-p:  18/$base-font-size + rem;
-$lg-h1: 18/$base-font-size + rem;
-$lg-h2: 18/$base-font-size + rem;
-$lg-h3: 18/$base-font-size + rem;
-$lg-h4: 18/$base-font-size + rem;
-$lg-h5: 18/$base-font-size + rem;
-$lg-h6: 18/$base-font-size + rem;
-$lg-dek:  28/$base-font-size + rem;
-$lg-workco: 100/$base-font-size + rem;
+$lg-h1: 100/$base-font-size + rem;
+$lg-h2: 64/$base-font-size + rem;
+$lg-h3: 28/$base-font-size + rem;
+$lg-h4: 28/$base-font-size + rem;
+$lg-h5: 22/$base-font-size + rem;
+$lg-h6: 15/$base-font-size + rem;
+$lg-dek:  56/$base-font-size + rem;
+$lg-workco: 140/$base-font-size + rem;
 $lg-other: 56/$base-font-size + rem;
 
 // xl breakpoint
 $xl-p:  19/$base-font-size + rem;
-$xl-h1: 19/$base-font-size + rem;
-$xl-h2: 19/$base-font-size + rem;
-$xl-h3: 19/$base-font-size + rem;
-$xl-h4: 19/$base-font-size + rem;
-$xl-h5: 19/$base-font-size + rem;
-$xl-h6: 19/$base-font-size + rem;
-$xl-dek:  28/$base-font-size + rem;
-$xl-workco: 100/$base-font-size + rem;
+$xl-h1: 100/$base-font-size + rem;
+$xl-h2: 64/$base-font-size + rem;
+$xl-h3: 28/$base-font-size + rem;
+$xl-h4: 28/$base-font-size + rem;
+$xl-h5: 24/$base-font-size + rem;
+$xl-h6: 16/$base-font-size + rem;
+$xl-dek:  56/$base-font-size + rem;
+$xl-workco: 140/$base-font-size + rem;
 $xl-other: 56/$base-font-size + rem;
 
 // weights
@@ -127,7 +127,7 @@ $bold: 700;
 // Line height
 // -------------------------
 
-$line-height-tight: .9;
+$line-height-tight: .85;
 $line-height-default: 1.3;
 $line-height-body: 1.4210526316;
 
@@ -136,4 +136,4 @@ $line-height-body: 1.4210526316;
 // -------------------------
 
 $border: 1px solid $base;
-$border-thick: 5px solid $base;
+$border-thick: 4px solid $base;

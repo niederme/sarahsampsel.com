@@ -35,8 +35,8 @@
 
   // Container hacks ¯\_(ツ)_/¯
   .container {
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: $space-2;
+    margin-left: $space-2;
   }
 
   .big {
@@ -60,7 +60,6 @@
 
   .cat {
     margin-top:  (-$space-7);
-    margin-right:  (-$space-2);
   }
 
 }
@@ -69,8 +68,13 @@
 
   // Container hacks ¯\_(ツ)_/¯
   .container {
-    margin-right: 2rem;
-    margin-left: 2rem;
+    max-width: 960px;
+    margin-right: $space-7;
+    margin-left: $space-7;
+  }
+
+  .big {
+    font-size: 140px;
   }
 
 }
@@ -79,8 +83,15 @@
 
   // Container hacks ¯\_(ツ)_/¯
   .container {
-    margin-right: 4rem;
-    margin-left: 4rem;
+    max-width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .rule-wapo {
+    margin-left: (-$space-3);
+    margin-top:  ($space-8);
+    height: 105%;
   }
 
 }
@@ -90,8 +101,8 @@
   // Container hacks ¯\_(ツ)_/¯
   .container {
     max-width: 1400px;
-    margin-right: auto;
-    margin-left: auto;
+      margin-right: auto;
+      margin-left: auto;
   }
 
 }
