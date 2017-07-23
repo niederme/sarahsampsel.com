@@ -7,7 +7,7 @@
 		"uuidString": "016AE8B9-6B54-4DF9-BC31-7637D06B5E32"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25849",
 "files": {
 	"\/_scss\/.sass-cache\/104a362c353efedac2020a5b86be9a84b503d23b\/_borders.scssc": {
 		"ft": 8192,
@@ -371,7 +371,128 @@
 		"oA": 0,
 		"oAP": "\/favicon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/fonts\/Canela-Bold-Web.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-Bold-Web.eot",
+		"oF": 0
+		},
+	"\/fonts\/Canela-Bold-Web.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-Bold-Web.woff",
+		"oF": 0
+		},
+	"\/fonts\/Canela-Bold-Web.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-Bold-Web.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Canela-BoldItalic-Web.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-BoldItalic-Web.eot",
+		"oF": 0
+		},
+	"\/fonts\/Canela-BoldItalic-Web.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-BoldItalic-Web.woff",
+		"oF": 0
+		},
+	"\/fonts\/Canela-BoldItalic-Web.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-BoldItalic-Web.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Canela-Light-Web.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-Light-Web.eot",
+		"oF": 0
+		},
+	"\/fonts\/Canela-Light-Web.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-Light-Web.woff",
+		"oF": 0
+		},
+	"\/fonts\/Canela-Light-Web.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-Light-Web.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Canela-LightItalic-Web.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-LightItalic-Web.eot",
+		"oF": 0
+		},
+	"\/fonts\/Canela-LightItalic-Web.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-LightItalic-Web.woff",
+		"oF": 0
+		},
+	"\/fonts\/Canela-LightItalic-Web.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-LightItalic-Web.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Canela-Regular-Web.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-Regular-Web.eot",
+		"oF": 0
+		},
+	"\/fonts\/Canela-Regular-Web.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-Regular-Web.woff",
+		"oF": 0
+		},
+	"\/fonts\/Canela-Regular-Web.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-Regular-Web.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Canela-RegularItalic-Web.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-RegularItalic-Web.eot",
+		"oF": 0
+		},
+	"\/fonts\/Canela-RegularItalic-Web.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-RegularItalic-Web.woff",
+		"oF": 0
+		},
+	"\/fonts\/Canela-RegularItalic-Web.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Canela-RegularItalic-Web.woff2",
+		"oF": 0
+		},
+	"\/images\/cat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/cat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/favicon.png": {
 		"ft": 32768,
@@ -379,7 +500,10 @@
 		"oA": 0,
 		"oAP": "\/images\/favicon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/favicon114.png": {
 		"ft": 32768,
@@ -387,7 +511,10 @@
 		"oA": 0,
 		"oAP": "\/images\/favicon114.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/favicon144.png": {
 		"ft": 32768,
@@ -395,7 +522,10 @@
 		"oA": 0,
 		"oAP": "\/images\/favicon144.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/favicon57.png": {
 		"ft": 32768,
@@ -403,7 +533,10 @@
 		"oA": 0,
 		"oAP": "\/images\/favicon57.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/favicon72.png": {
 		"ft": 32768,
@@ -411,7 +544,10 @@
 		"oA": 0,
 		"oAP": "\/images\/favicon72.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/social-promo.png": {
 		"ft": 32768,
@@ -419,7 +555,10 @@
 		"oA": 0,
 		"oAP": "\/images\/social-promo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -1126,6 +1265,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1326,6 +1469,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1403,6 +1550,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1602,6 +1753,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1653,6 +1808,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1747,6 +1906,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2193,7 +2356,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2216,14 +2380,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2286,7 +2442,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -2371,6 +2529,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

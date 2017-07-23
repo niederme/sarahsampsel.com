@@ -7,54 +7,20 @@
 // -------------------------
 
 :root {
-  --gutter-width: 3rem;
-  --outer-margin: 4rem;
+  --gutter-width: $space-4;
+  --outer-margin: $space-4;
   --gutter-compensation: calc((var(--gutter-width) * 0.5) * -1);
   --half-gutter-width: calc((var(--gutter-width) * 0.5));
 }
 
 .container-fluid, .container {
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: $space-2;
+  margin-left: $space-2;
 }
 
 .container-fluid {
-  padding-right: var(--outer-margin, 2rem);
-  padding-left: var(--outer-margin, 2rem);
-}
-
-
-// Container hacks ¯\_(ツ)_/¯
-// -------------------------
-
-
-@media (min-width: 768px) {
-  .container {
-    margin-right: 3rem;
-    margin-left: 3rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    margin-right: 2rem;
-    margin-left: 2rem;
-  }
-}
-
-@media (min-width: 1400px) {
-  .container {
-    margin-right: 4rem;
-    margin-left: 4rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .container {
-    max-width: 1480px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  padding-right: var(--outer-margin, $space-2);
+  padding-left: var(--outer-margin, $space-2);
 }
 
 
@@ -67,8 +33,8 @@
   flex: 0 1 auto;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-right: var(--gutter-compensation, -0.5rem);
-  margin-left: var(--gutter-compensation, -0.5rem);
+  margin-right: var(--gutter-compensation, -$space-2);
+  margin-left: var(--gutter-compensation, -$space-2);
 }
 
 .row.reverse {
@@ -112,8 +78,8 @@
   &col-offset-12 {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding-right: var(--half-gutter-width, 0.5rem);
-    padding-left: var(--half-gutter-width, 0.5rem);
+    padding-right: var(--half-gutter-width, $space-2);
+    padding-left: var(--half-gutter-width, $space-2);
   }
 
   &col {

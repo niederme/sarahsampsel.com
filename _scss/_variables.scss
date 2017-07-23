@@ -14,27 +14,27 @@ $generate-responsive-classes: true !default;
 // Fonts
 // -------------------------
 
-$serif:         "freight-text-pro", didot, georgia, serif;
-$serif-display: "freight-big-pro", didot, georgia, serif;
+$serif:         "freight-text-pro", georgia, serif;
+$serif-display: "Canela Web", didot, georgia, serif;
 $sans: 	        "freight-sans-pro", "helvetica neue", helvetica, arial, sans-serif;
 
-
 $base-font-size: 19;
+
 
 // Spacing
 // -------------------------
 
-$space-05:   2/$base-font-size + rem;
-$space-1:    8/$base-font-size + rem;
-$space-2:   16/$base-font-size + rem;
-$space-3:   20/$base-font-size + rem;
-$space-4:   24/$base-font-size + rem;
-$space-5:   32/$base-font-size + rem;
-$space-6:   48/$base-font-size + rem;
-$space-7:   72/$base-font-size + rem;
-$space-8:   96/$base-font-size + rem;
-$space-9:  120/$base-font-size + rem;
-$space-10: 150/$base-font-size + rem;
+$space-05:   5/$base-font-size + rem;
+$space-1:   10/$base-font-size + rem;
+$space-2:   20/$base-font-size + rem;
+$space-3:   30/$base-font-size + rem;
+$space-4:   40/$base-font-size + rem;
+$space-5:   50/$base-font-size + rem;
+$space-6:   65/$base-font-size + rem;
+$space-7:   80/$base-font-size + rem;
+$space-8:   110/$base-font-size + rem;
+$space-9:   125/$base-font-size + rem;
+$space-10:  150/$base-font-size + rem;
 
 
 // Z-index
@@ -50,76 +50,90 @@ $z4: 400;
 // Colors
 // -------------------------
 
-$base:   #333;
+$base:   #271F0E;
 $white:  #fff;
-$brand: #E07B7B;
-$bg:    #FFF5F5;
-
+$brand: #992737;
+$bg:    #FFEFEF;
 
 // Typography Sizes and Weights
 // -------------------------
 
 // xs breakpoint
-$xs-p:  17/$base-font-size + rem;
-$xs-h1: 32/$base-font-size + rem;
-$xs-h2: 32/$base-font-size + rem;
-$xs-h3: 24/$base-font-size + rem;
-$xs-h4: 26/$base-font-size + rem;
-$xs-h5: 20/$base-font-size + rem;
-$xs-h6: 16/$base-font-size + rem;
+$xs-p:  15/$base-font-size + rem;
+$xs-h1: 36/$base-font-size + rem;
+$xs-h2: 56/$base-font-size + rem;
+$xs-h3: 20/$base-font-size + rem;
+$xs-h4: 28/$base-font-size + rem;
+$xs-h5: 18/$base-font-size + rem;
+$xs-h6: 15/$base-font-size + rem;
+$xs-dek: 23/$base-font-size + rem;
+$xs-workco: 56/$base-font-size + rem;
+$xs-other: 56/$base-font-size + rem;
 
 // sm breakpoint
-$sm-p:  18/$base-font-size + rem;
-$sm-h1: 44/$base-font-size + rem;
-$sm-h2: 36/$base-font-size + rem;
-$sm-h3: 28/$base-font-size + rem;
-$sm-h4: 30/$base-font-size + rem;
-$sm-h5: 16/$base-font-size + rem;
-$sm-h6: 14/$base-font-size + rem;
+$sm-p:  16/$base-font-size + rem;
+$sm-h1: 43/$base-font-size + rem;
+$sm-h2: 56/$base-font-size + rem;
+$sm-h3: 20/$base-font-size + rem;
+$sm-h4: 28/$base-font-size + rem;
+$sm-h5: 18/$base-font-size + rem;
+$sm-h6: 15/$base-font-size + rem;
+$sm-dek: 28/$base-font-size + rem;
+$sm-workco: 56/$base-font-size + rem;
+$sm-other: 56/$base-font-size + rem;
 
 // md breakpoint
 $md-p:  16/$base-font-size + rem;
-$md-h1: 56/$base-font-size + rem;
-$md-h2: 52/$base-font-size + rem;
-$md-h3: 40/$base-font-size + rem;
-$md-h4: 32/$base-font-size + rem;
+$md-h1: 80/$base-font-size + rem;
+$md-h2: 64/$base-font-size + rem;
+$md-h3: 24/$base-font-size + rem;
+$md-h4: 28/$base-font-size + rem;
 $md-h5: 18/$base-font-size + rem;
-$md-h6: 14/$base-font-size + rem;
+$md-h6: 15/$base-font-size + rem;
+$md-dek: 44/$base-font-size + rem;
+$md-workco: 100/$base-font-size + rem;
+$md-other: 56/$base-font-size + rem;
 
 // lg breakpoint
 $lg-p:  18/$base-font-size + rem;
-$lg-h1: 60/$base-font-size + rem;
-$lg-h2: 56/$base-font-size + rem;
-$lg-h3: 44/$base-font-size + rem;
-$lg-h4: 32/$base-font-size + rem;
+$lg-h1: 18/$base-font-size + rem;
+$lg-h2: 18/$base-font-size + rem;
+$lg-h3: 18/$base-font-size + rem;
+$lg-h4: 18/$base-font-size + rem;
 $lg-h5: 18/$base-font-size + rem;
-$lg-h6: 16/$base-font-size + rem;
+$lg-h6: 18/$base-font-size + rem;
+$lg-dek:  28/$base-font-size + rem;
+$lg-workco: 100/$base-font-size + rem;
+$lg-other: 56/$base-font-size + rem;
 
 // xl breakpoint
-$p:  19/$base-font-size + rem;
-$h1: 84/$base-font-size + rem;
-$h2: 80/$base-font-size + rem;
-$h3: 60/$base-font-size + rem;
-$h4: 50/$base-font-size + rem;
-$h5: 19/$base-font-size + rem;
-$h6: 16/$base-font-size + rem;
+$xl-p:  19/$base-font-size + rem;
+$xl-h1: 19/$base-font-size + rem;
+$xl-h2: 19/$base-font-size + rem;
+$xl-h3: 19/$base-font-size + rem;
+$xl-h4: 19/$base-font-size + rem;
+$xl-h5: 19/$base-font-size + rem;
+$xl-h6: 19/$base-font-size + rem;
+$xl-dek:  28/$base-font-size + rem;
+$xl-workco: 100/$base-font-size + rem;
+$xl-other: 56/$base-font-size + rem;
 
 // weights
-$book: 400;
-$medium: 500;
+$light: 300;
+$regular: 400;
 $bold: 700;
-$black: 900;
 
 
 // Line height
 // -------------------------
 
-$line-height-hed: 1.07;
-$line-height-body: 1.39;
+$line-height-tight: .9;
+$line-height-default: 1.3;
+$line-height-body: 1.4210526316;
 
 
 // Borders
 // -------------------------
 
-$border: 3px solid $base;
-$border-thick: 6px solid $bg;
+$border: 1px solid $base;
+$border-thick: 5px solid $base;

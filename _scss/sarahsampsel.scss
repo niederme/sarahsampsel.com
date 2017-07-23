@@ -13,3 +13,85 @@
 @import "layout";
 @import "borders";
 @import "flexgrid";
+
+
+
+// Custom CSS
+// -------------------------
+
+.big {
+  font-size: 68px;
+}
+
+.bigger {
+  font-size: 100px;
+}
+
+.three-quarters-width {
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+
+  // Container hacks ¯\_(ツ)_/¯
+  .container {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .big {
+    font-size: 110px;
+  }
+
+  .bigger {
+    font-size: 175px;
+  }
+
+  .rule-ethos {
+    margin-left: (-$space-3);
+    height: 75%;
+  }
+
+  .rule-work {
+    margin-left: (-$space-3);
+    margin-bottom:  (-$space-3);
+    height: 250%;
+  }
+
+  .cat {
+    margin-top:  (-$space-7);
+    margin-right:  (-$space-2);
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  // Container hacks ¯\_(ツ)_/¯
+  .container {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  // Container hacks ¯\_(ツ)_/¯
+  .container {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+
+}
+
+@media (min-width: 1600px) {
+
+  // Container hacks ¯\_(ツ)_/¯
+  .container {
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
