@@ -152,6 +152,13 @@
   &neg-mx1 { margin-left:   -$space-1 !important; margin-right: -$space-1  !important;}
   &neg-my1 { margin-top:    -$space-1 !important; margin-bottom: -$space-1 !important;}
 
+  &neg-m2  { margin:        -$space-2 !important; }
+  &neg-mt2 { margin-top:    -$space-2 !important; }
+  &neg-mr2 { margin-right:  -$space-2 !important; }
+  &neg-mb2 { margin-bottom: -$space-2 !important; }
+  &neg-ml2 { margin-left:   -$space-2 !important; }
+  &neg-mx2 { margin-left:   -$space-2 !important; margin-right: -$space-2  !important;}
+  &neg-my2 { margin-top:    -$space-2 !important; margin-bottom: -$space-2 !important;}
 }
 
 
@@ -273,10 +280,10 @@
   &z3 { z-index: $z3 !important; }
   &z4 { z-index: $z4 !important; }
 
-  &t0 { top:    0 !important; }
-  &r0 { right:  0 !important; }
-  &b0 { bottom: 0 !important; }
-  &l0 { left:   0 !important; }
+  &t0    { top:    0 !important; }
+  &r0    { right:  0 !important; }
+  &b0    { bottom: 0 !important; }
+  &l0    { left:   0 !important; }
 
   &t05 { top:    $space-05 !important; }
   &r05 { right:  $space-05 !important; }
@@ -332,6 +339,11 @@
   &r10 { right:  $space-10 !important; }
   &b10 { bottom: $space-10 !important; }
   &l10 { left:   $space-10 !important; }
+
+  &t-inherit { top: inherit !important; }
+  &r-inherit { right: inherit !important; }
+  &b-inherit { bottom: inherit !important; }
+  &l-inherit { left: inherit !important; }
 }
 
 // Vertical Align

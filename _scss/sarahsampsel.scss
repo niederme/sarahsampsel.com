@@ -19,12 +19,10 @@
 // Custom CSS
 // -------------------------
 
-.big {
-  font-size: 68px;
-}
-
-.bigger {
-  font-size: 100px;
+.boxed {
+  padding-left: $space-1;
+  margin-right: $space-2;
+  padding-left: $space-1;
 }
 
 .three-quarters-width {
@@ -33,28 +31,25 @@
 
 @media (min-width: 768px) {
 
-  // Container hacks ¯\_(ツ)_/¯
+  // Container hack ¯\_(ツ)_/¯
   .container {
-    margin-right: $space-2;
-    margin-left: $space-2;
+    margin-right: $space-4;
+    margin-left: $space-4;
   }
 
-  .big {
-    font-size: 110px;
-  }
-
-  .bigger {
-    font-size: 175px;
+  .boxed {
+    margin-left: 0;
+    margin-right: $space-1;
   }
 
   .rule-ethos {
-    margin-left: (-$space-3);
+    margin-left: -$space-3;
     height: 75%;
   }
 
   .rule-work {
-    margin-left: (-$space-3);
-    margin-bottom:  (-$space-3);
+    margin-left: -$space-3;
+    margin-bottom:  -$space-3;
     height: 250%;
   }
 
@@ -66,43 +61,48 @@
 
 @media (min-width: 1024px) {
 
-  // Container hacks ¯\_(ツ)_/¯
+  // Container hack ¯\_(ツ)_/¯
   .container {
     max-width: 960px;
     margin-right: $space-7;
     margin-left: $space-7;
   }
+  .rule-ethos {
+    margin-left: -$space-4;
+    height: 65%;
+  }
 
-  .big {
-    font-size: 140px;
+  .rule-work {
+    margin-left: -$space-4;
+    margin-bottom:  -200px;
+    height: 175%;
   }
 
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1360px) {
 
-  // Container hacks ¯\_(ツ)_/¯
+  // Container hack ¯\_(ツ)_/¯
   .container {
-    max-width: 1150px;
+    max-width: 1260px;
     margin-right: auto;
     margin-left: auto;
   }
 
   .rule-wapo {
-    margin-left: (-$space-3);
-    margin-top:  ($space-8);
+    margin-left: -$space-3;
+    margin-top:  $space-8;
     height: 105%;
   }
 
-}
+  @media (min-width: 1600px) {
 
-@media (min-width: 1600px) {
-
-  // Container hacks ¯\_(ツ)_/¯
-  .container {
-    max-width: 1400px;
+    // Container hack ¯\_(ツ)_/¯
+    .container {
+      max-width: 1360px;
       margin-right: auto;
       margin-left: auto;
-  }
+    }
 
+  }
 }

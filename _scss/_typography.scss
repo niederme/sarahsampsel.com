@@ -230,7 +230,9 @@ h6 { font-size: $xs-h6; }
 .h6 { font-size: $xs-h6 !important; }
 .dek { font-size: $xs-dek !important; }
 .workco { font-size: $xs-workco !important; }
+.bio { font-size: $xs-bio !important; }
 .other { font-size: $xs-other !important; }
+.speak { font-size: $xs-speak !important; }
 
 // sm breakpoint
 @media (min-width: 375px) {
@@ -250,7 +252,9 @@ h6 { font-size: $xs-h6; }
   .h6 { font-size: $sm-h6 !important; }
   .dek { font-size: $sm-dek !important; }
   .workco { font-size: $sm-workco !important; }
+  .bio { font-size: $sm-bio !important; }
   .other { font-size: $sm-other !important; }
+  .speak { font-size: $sm-speak !important; }
 
 }
 
@@ -272,7 +276,9 @@ h6 { font-size: $xs-h6; }
   .h6 { font-size: $md-h6 !important; }
   .dek { font-size: $md-dek !important; }
   .workco { font-size: $md-workco !important; }
+  .bio { font-size: $md-bio !important; }
   .other { font-size: $md-other !important; }
+  .speak { font-size: $md-speak !important; }
 }
 
 // lg breakpoint
@@ -293,7 +299,9 @@ h6 { font-size: $xs-h6; }
   .h6 { font-size: $lg-h6 !important; }
   .dek { font-size: $lg-dek !important; }
   .workco { font-size: $lg-workco !important; }
+  .bio { font-size: $lg-bio !important; }
   .other { font-size: $lg-other !important; }
+  .speak { font-size: $lg-speak !important; }
 }
 
 // xl breakpoint
@@ -314,7 +322,9 @@ h6 { font-size: $xs-h6; }
   .h6 { font-size: $xl-h6 !important; }
   .dek { font-size: $xl-dek !important; }
   .workco { font-size: $xl-workco !important; }
+  .bio { font-size: $xl-bio !important; }
   .other { font-size: $xl-other !important; }
+  .speak { font-size: $xl-speak !important; }
 }
 
 
