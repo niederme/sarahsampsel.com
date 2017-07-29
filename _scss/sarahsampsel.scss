@@ -25,13 +25,26 @@
   padding-left: $space-1;
 }
 
-.three-quarters-width {
-  width: 80%;
+@media (min-width: 375px) { // sm breakpoint
+
+  // Hacks ¯\_(ツ)_/¯
+  .container {
+    margin-right: $space-3;
+    margin-left: $space-3;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 375px) and (max-width: 767px) {
 
-  // Container hack ¯\_(ツ)_/¯
+  .topper {
+    margin-right: $space-2;
+    margin-left: $space-2;
+  }
+}
+
+@media (min-width: 768px) { // md breaskpoint
+
+  // Hacks ¯\_(ツ)_/¯
   .container {
     margin-right: $space-4;
     margin-left: $space-4;
@@ -59,11 +72,10 @@
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) { // lg breaskpoint
 
   // Container hack ¯\_(ツ)_/¯
   .container {
-    max-width: 960px;
     margin-right: $space-7;
     margin-left: $space-7;
   }
@@ -80,7 +92,7 @@
 
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1360px) { // xl breakpoint
 
   // Container hack ¯\_(ツ)_/¯
   .container {
@@ -89,20 +101,41 @@
     margin-left: auto;
   }
 
+  .rule-ethos {
+    margin-left: -$space-4;
+    height: 70%;
+  }
+
   .rule-wapo {
     margin-left: -$space-3;
     margin-top:  $space-8;
     height: 105%;
   }
+}
 
-  @media (min-width: 1600px) {
+@media (min-width: 1360px) and (max-height: 800px ) {
 
-    // Container hack ¯\_(ツ)_/¯
-    .container {
-      max-width: 1360px;
-      margin-right: auto;
-      margin-left: auto;
+  .topper {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    & h2 {
+      margin-top: $space-1 !important;
+      padding-top: 0 !important;
     }
-
+    & h1 {
+      margin-bottom: $space-2 !important;
+    }
   }
+}
+
+@media (min-width: 1600px) {
+
+  // Container hack ¯\_(ツ)_/¯
+  .container {
+    max-width: 1360px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }

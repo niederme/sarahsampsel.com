@@ -1,0 +1,8 @@
+// Flex
+// --------------------------------------------------
+
+@include generate-breakpoint-prefixes {
+  &flex         { display: flex; }
+  &flex-wrap    { flex-wrap: wrap; }
+  &items-center { align-items: center; }
+}
