@@ -378,17 +378,6 @@
 		"oAP": "\/css\/sarahsampsel.css.map",
 		"oF": 0
 		},
-	"\/favicon.png": {
-		"ft": 32768,
-		"iS": 1732,
-		"oA": 0,
-		"oAP": "\/favicon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/fonts\/Canela-Bold-Web.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -507,6 +496,50 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/favicon-114.png": {
+		"ft": 32768,
+		"iS": 4141,
+		"oA": 0,
+		"oAP": "\/images\/favicon-114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-144.png": {
+		"ft": 32768,
+		"iS": 6162,
+		"oA": 0,
+		"oAP": "\/images\/favicon-144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-57.png": {
+		"ft": 32768,
+		"iS": 1667,
+		"oA": 0,
+		"oAP": "\/images\/favicon-57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-72.png": {
+		"ft": 32768,
+		"iS": 2252,
+		"oA": 0,
+		"oAP": "\/images\/favicon-72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/favicon.png": {
 		"ft": 32768,
 		"iS": 1732,
@@ -518,53 +551,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/favicon114.png": {
-		"ft": 32768,
-		"iS": 4723,
-		"oA": 0,
-		"oAP": "\/images\/favicon114.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/favicon144.png": {
-		"ft": 32768,
-		"iS": 5914,
-		"oA": 0,
-		"oAP": "\/images\/favicon144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/favicon57.png": {
-		"ft": 32768,
-		"iS": 2547,
-		"oA": 0,
-		"oAP": "\/images\/favicon57.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/favicon72.png": {
-		"ft": 32768,
-		"iS": 2946,
-		"oA": 0,
-		"oAP": "\/images\/favicon72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/social-promo.png": {
 		"ft": 32768,
-		"iS": 1541092,
+		"iS": 436988,
 		"oA": 0,
 		"oAP": "\/images\/social-promo.png",
 		"oF": 0,

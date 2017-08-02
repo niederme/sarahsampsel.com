@@ -259,7 +259,7 @@ h6 { font-size: $xs-h6; }
 }
 
 // md breakpoint
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   p  { font-size: $md-p; }
   h1 { font-size: $md-h1; }
   h2 { font-size: $md-h2; }
@@ -282,7 +282,7 @@ h6 { font-size: $xs-h6; }
 }
 
 // lg breakpoint
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
   p  { font-size: $lg-p; }
   h1 { font-size: $lg-h1; }
   h2 { font-size: $lg-h2; }

@@ -42,7 +42,7 @@
   }
 }
 
-@media (min-width: 768px) { // md breaskpoint
+@media (min-width: 750px) { // md breaskpoint
 
   // Hacks ¯\_(ツ)_/¯
   .container {
@@ -55,9 +55,9 @@
     margin-right: $space-1;
   }
 
-  .rule-ethos {
+  .rule-approach {
     margin-left: -$space-3;
-    height: 75%;
+    height: 50%;
   }
 
   .rule-work {
@@ -79,7 +79,8 @@
     margin-right: $space-7;
     margin-left: $space-7;
   }
-  .rule-ethos {
+
+  .rule-approach {
     margin-left: -$space-4;
     height: 65%;
   }
@@ -101,7 +102,7 @@
     margin-left: auto;
   }
 
-  .rule-ethos {
+  .rule-approach {
     margin-left: -$space-4;
     height: 70%;
   }
